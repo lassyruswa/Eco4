@@ -112,6 +112,7 @@ table {
        } 
     }
     .card{
+        background-color: transparent;
         font-weight: bold;
         p{
             font-weight: 400;
@@ -159,12 +160,17 @@ table {
             }
         }
         .questions{
-            padding-top: 5vh;
+            
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            
+
             .right{
-                
+              
                 .container {
                     max-width: 600px;
-                    margin: 50px auto;
+                    // margin: 50px auto;
                     background-color: #cccccc;
                     padding: 20px;
                     color: black;
@@ -212,6 +218,10 @@ table {
             color: white;
             border: none;
             margin-top: 1rem;
+        }
+        input{
+            width: 25%;
+            padding: 7px;
         }
 
     }
@@ -266,12 +276,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 20px;
+                gap: 3rem;
                 font-weight: 300;
     
                 li{
                     color: green;
-                    font-size: 10px;
+                    font-weight: 500;
     
                     button{
                         border: none;
@@ -338,6 +348,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 }
 .benefits{
+    padding: 5vh  0;
 	.center-items{
 		text-align: left;
 	}

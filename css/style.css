@@ -107,6 +107,7 @@ table {
   font-weight: bold;
 }
 .banner .services .card {
+  background-color: transparent;
   font-weight: bold;
 }
 .banner .services .card p {
@@ -149,11 +150,12 @@ table {
   padding-left: 1rem;
 }
 .benefits .questions {
-  padding-top: 5vh;
+  height: 70vh;
+  display: flex;
+  align-items: center;
 }
 .benefits .questions .right .container {
   max-width: 600px;
-  margin: 50px auto;
   background-color: #cccccc;
   padding: 20px;
   color: black;
@@ -195,6 +197,10 @@ table {
   color: white;
   border: none;
   margin-top: 1rem;
+}
+.footer input {
+  width: 25%;
+  padding: 7px;
 }
 
 .copyright {
@@ -238,12 +244,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 3rem;
     font-weight: 300;
   }
   .pc-nav .flex-container ul li {
     color: green;
-    font-size: 10px;
+    font-weight: 500;
   }
   .pc-nav .flex-container ul li button {
     border: none;
@@ -279,6 +285,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .mission .img .text-overlay p {
     width: 50%;
+  }
+  .benefits {
+    padding: 5vh 0;
   }
   .benefits .center-items {
     text-align: left;
